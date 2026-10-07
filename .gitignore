@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment Variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Streamlit
+.streamlit/
+
+# Local data
+data/*.pdf
+
+# FAISS / Vector Database
+*.faiss
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+uploaded_document.pdf
